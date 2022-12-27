@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Hyperf\\Scout\\": "src/"
+            "North521\\HyperfScout\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "HyperfTest\\Scout\\": "tests/"
+            "North521\\HyperfScout\\": "tests/"
         }
     },
     "config": {
