@@ -20,7 +20,7 @@ return [
     'concurrency' => 100,
     'engine' => [
         'elasticsearch' => [
-            'driver' => Hyperf\Scout\Provider\ElasticsearchProvider::class,
+            'driver' => North521\HyperfScout\Provider\ElasticsearchProvider::class,
             'index' => null,
             'hosts' => [
                 env('ELASTICSEARCH_HOST', 'http://127.0.0.1:9200'),

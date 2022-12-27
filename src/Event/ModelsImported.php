@@ -9,11 +9,11 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace Hyperf\Scout\Event;
+namespace North521\HyperfScout\Event;
 
 use Hyperf\Database\Model\Collection;
 use Hyperf\Database\Model\Model;
-use Hyperf\Scout\Searchable;
+use North521\HyperfScout\Searchable;
 
 class ModelsImported
 {

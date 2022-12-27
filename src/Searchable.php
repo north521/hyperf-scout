@@ -9,14 +9,14 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace Hyperf\Scout;
+namespace North521\HyperfScout;
 
 use Closure;
 use Hyperf\Database\Model\Collection;
 use Hyperf\Database\Model\Collection as BaseCollection;
 use Hyperf\Database\Model\SoftDeletes;
 use Hyperf\ModelListener\Collector\ListenerCollector;
-use Hyperf\Scout\Engine\Engine;
+use North521\HyperfScout\Engine\Engine;
 use Hyperf\Utils\ApplicationContext;
 use Hyperf\Utils\Coroutine;
 

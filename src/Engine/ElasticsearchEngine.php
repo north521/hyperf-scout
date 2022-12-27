@@ -9,14 +9,14 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace Hyperf\Scout\Engine;
+namespace North521\HyperfScout\Engine;
 
 use Elasticsearch\Client;
 use Elasticsearch\Client as Elastic;
 use Hyperf\Database\Model\Collection;
 use Hyperf\Database\Model\Model;
-use Hyperf\Scout\Builder;
-use Hyperf\Scout\SearchableInterface;
+use North521\HyperfScout\Builder;
+use North521\HyperfScout\SearchableInterface;
 use Hyperf\Utils\Collection as BaseCollection;
 use Throwable;
 
@@ -48,7 +48,7 @@ class ElasticsearchEngine extends Engine
      * Update the given model in the index.
      *
      * @phpstan-ignore-next-line
-     * @param Collection<int, \Hyperf\Database\Model\Model&\Hyperf\Scout\Searchable> $models
+     * @param Collection<int, \Hyperf\Database\Model\Model&\North521\HyperfScout\Searchable> $models
      */
     public function update($models): void
     {
@@ -79,7 +79,7 @@ class ElasticsearchEngine extends Engine
      * Remove the given model from the index.
      *
      * @phpstan-ignore-next-line
-     * @param Collection<int, \Hyperf\Database\Model\Model&\Hyperf\Scout\Searchable> $models
+     * @param Collection<int, \Hyperf\Database\Model\Model&\North521\HyperfScout\Searchable> $models
      */
     public function delete($models): void
     {

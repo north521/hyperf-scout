@@ -1,5 +1,5 @@
 {
-    "name": "hyperf/scout",
+    "name": "north521/hyperf-scout",
     "type": "library",
     "license": "MIT",
     "keywords": [
@@ -41,7 +41,7 @@
             "dev-master": "3.0-dev"
         },
         "hyperf": {
-            "config": "Hyperf\\Scout\\ConfigProvider"
+            "config": "North521\\HyperfScout\\ConfigProvider"
         }
     }
 }

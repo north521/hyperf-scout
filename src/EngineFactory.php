@@ -9,11 +9,11 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace Hyperf\Scout;
+namespace North521\HyperfScout;
 
 use Hyperf\Contract\ConfigInterface;
-use Hyperf\Scout\Provider\ElasticsearchProvider;
-use Hyperf\Scout\Provider\ProviderInterface;
+use North521\HyperfScout\Provider\ElasticsearchProvider;
+use North521\HyperfScout\Provider\ProviderInterface;
 use Psr\Container\ContainerInterface;
 
 class EngineFactory

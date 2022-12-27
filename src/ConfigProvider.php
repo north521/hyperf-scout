@@ -9,11 +9,11 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace Hyperf\Scout;
+namespace North521\HyperfScout;
 
-use Hyperf\Scout\Console\FlushCommand;
-use Hyperf\Scout\Console\ImportCommand;
-use Hyperf\Scout\Engine\Engine;
+use North521\HyperfScout\Console\FlushCommand;
+use North521\HyperfScout\Console\ImportCommand;
+use North521\HyperfScout\Engine\Engine;
 
 class ConfigProvider
 {
@@ -31,8 +31,8 @@ class ConfigProvider
                 [
                     'id' => 'config',
                     'description' => 'The config of hyperf scout.',
-                    'source' => __DIR__ . '/../publish/scout.php',
-                    'destination' => BASE_PATH . '/config/autoload/scout.php',
+                    'source' => __DIR__ . '/../publish/north521-scout.php',
+                    'destination' => BASE_PATH . '/config/autoload/north521-scout.php',
                 ],
             ],
         ];

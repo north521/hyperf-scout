@@ -9,10 +9,10 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace Hyperf\Scout\Console;
+namespace North521\HyperfScout\Console;
 
 use Hyperf\Command\Command;
-use Hyperf\Scout\Event\ModelsImported;
+use North521\HyperfScout\Event\ModelsImported;
 use Hyperf\Utils\ApplicationContext;
 use Psr\EventDispatcher\ListenerProviderInterface;
 use Symfony\Component\Console\Input\InputArgument;

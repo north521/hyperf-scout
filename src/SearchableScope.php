@@ -9,13 +9,13 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace Hyperf\Scout;
+namespace North521\HyperfScout;
 
 use Hyperf\Database\Model\Builder as EloquentBuilder;
 use Hyperf\Database\Model\Model;
 use Hyperf\Database\Model\Scope;
-use Hyperf\Scout\Event\ModelsFlushed;
-use Hyperf\Scout\Event\ModelsImported;
+use North521\HyperfScout\Event\ModelsFlushed;
+use North521\HyperfScout\Event\ModelsImported;
 use Hyperf\Utils\ApplicationContext;
 use Psr\EventDispatcher\EventDispatcherInterface;
 

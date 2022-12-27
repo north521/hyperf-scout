@@ -9,9 +9,9 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace Hyperf\Scout\Provider;
+namespace North521\HyperfScout\Provider;
 
-use Hyperf\Scout\Engine\Engine;
+use North521\HyperfScout\Engine\Engine;
 
 interface ProviderInterface
 {

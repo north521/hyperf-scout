@@ -9,11 +9,11 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-namespace Hyperf\Scout\Engine;
+namespace North521\HyperfScout\Engine;
 
 use Hyperf\Database\Model\Collection;
 use Hyperf\Database\Model\Model;
-use Hyperf\Scout\Builder;
+use North521\HyperfScout\Builder;
 use Hyperf\Utils\Collection as BaseCollection;
 
 class NullEngine extends Engine
